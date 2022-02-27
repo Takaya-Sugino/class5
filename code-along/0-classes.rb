@@ -4,7 +4,21 @@
 # rails runner code-along/0-classes.rb
 
 # String Class
+my_favorite_food = "ice cream"
+puts my_favorite_food.capitalize
+
+your_favorite_food = "tacos"
+puts your_favorite_food.capitalize
 
 # String Methods
 
 # Custom Class
+
+class Dog
+    def speak 
+        puts "woof!"
+    end
+end 
+
+lassie = Dog.new
+lassie.speak
